@@ -21,7 +21,9 @@ You can verify your installation in your terminal by running the commands `pytho
 Virtualenv is used to create virtual python environments. We will use virtualenv to create an environment for this workshop. 
 Use pip to install virtualenv: 
 
-``` pip3 install virtualenv ```
+``` 
+pip3 install virtualenv 
+```
 
 Verify the installation by running `virtualenv` in your terminal. 
 
@@ -29,20 +31,26 @@ Verify the installation by running `virtualenv` in your terminal.
 Create a folder called "pythonenvs" anywhere on your computer. We will install the virtual environment in that folder. 
 run the following command in your terminal inside the pythonenvs folder: 
 
-```virtualenv code-pub-10-19 ```
+```
+virtualenv code-pub-10-19 
+```
 
 You should now have a new folder called `code-pub-10-19`. Inside that folder you will see the following folders: ` bin,	include,lib `
 
 ### 4. Activate virtual environment
 Run the following command to activate your virtual environment from the pythonenvs folder: 
 
-``` source code-pub-10-19/bin/activate ``` 
+```
+source code-pub-10-19/bin/activate
+``` 
 
 NOTE: The path might differ on a windows machine. 
 
 You can verify that you are using your virtual environment by running the following command: 
 
-```which python```
+```
+which python
+```
 
 The output should contain the path where your virtualenvironment is located. 
 
@@ -50,6 +58,7 @@ To deactivate your virtualenvironment simply type `deactivate` in your terminal 
 
 ### 5. Install necessary packages 
 Now that you have activated your virtual environment, run the following commands to install the necessary packages. 
+
 ``` 
 pip install scikit-learn pandas jupyter matplotlib
 ``` 
@@ -57,7 +66,9 @@ pip install scikit-learn pandas jupyter matplotlib
 ### 6. Verify jupyter notebook is working
 Run the following command in the terminal: 
 
-``` jupyter notebook ``` 
+```
+jupyter notebook
+``` 
 
 This should open a new tab in your browser if everything has worked. 
 
