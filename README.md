@@ -1,5 +1,5 @@
-# The Code Pub: Machine Learning Time!
-The Code Pub goes AI \(^o^)/
+# The Code Pub: Machine Learning Time
+The Code Pub goes AI!
 
 ## Preparation
 Note: You can skip the preparation part if you already have python3 installed with the following packages: 
