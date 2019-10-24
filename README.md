@@ -13,8 +13,8 @@ I recommend using a virtual environment as described in the preparation steps.
 
 DISCLAIMER: I use a Macbook, so the preparation steps might differ for other operating systems. The most important is that you have the required packages installed. 
 
-### 1. Install python3 and pip
-Make sure you have python3 installed on your computer along with its' package manager pip. Please google how to do this based on your operating system. 
+### 1. Install python3 
+Make sure you have python3 installed on your computer along with its' package manager pip(in python 3.4 or later pip is included in the binaries). Please google how to do this based on your operating system. 
 You can verify your installation in your terminal by running the commands `python3` and `pip3`. 
 
 ### 2. Install virtualenv 
@@ -51,10 +51,7 @@ To deactivate your virtualenvironment simply type `deactivate` in your terminal 
 ### 5. Install necessary packages 
 Now that you have activated your virtual environment, run the following commands to install the necessary packages. 
 ``` 
-pip install scikit-learn
-pip install pandas 
-pip install jupyter
-pip install matplotlib
+pip install scikit-learn pandas jupyter matplotlib
 ``` 
 
 ### 6. Verify jupyter notebook is working
