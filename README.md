@@ -35,6 +35,7 @@ You should now have a new folder called `code-pub-10-19`. Inside that folder you
 
 ### 4. Activate virtual environment
 Run the following command to activate your virtual environment from the pythonenvs folder: 
+
 ``` source code-pub-10-19/bin/activate ``` 
 
 NOTE: The path might differ on a windows machine. 
@@ -58,6 +59,7 @@ pip install matplotlib
 
 ### 6. Verify jupyter notebook is working
 Run the following command in the terminal: 
+
 ``` jupyter notebook ``` 
 
 This should open a new tab in your browser if everything has worked. 
